@@ -27,7 +27,7 @@ let SOMA = A + B;
 console.log('SOMA = ', SOMA);
 No site diz 10% errado*/
 
-//1004
+//1003
 /*let A = 3;
 let B = 9;
 let PROD = A * B;
