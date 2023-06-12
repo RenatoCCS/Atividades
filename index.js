@@ -54,20 +54,20 @@
 
 // exercicio 1
 //  Ajude o professor, ele digitara 3 notas, calcule a media e retorne
-//  se ele passou ou não de ano  , não enviar em console.log
+//  se ele passou ou não de ano, não enviar em console.log
 // deixa BUNITO estilizar bastante.
 
-let nota1 = 10;
-let nota2 = 3;
-let nota3 = 5;
+let nota1 = window.prompt(' Qual a primeira nota do aluno?');
+let nota2 = window.prompt(' Qual a segunda nota do aluno?');
+let nota3 = window.prompt(' Qual a terceira nota do aluno?');
 let resultado = nota1 + nota2 + nota3 / 3;
 
 document.write(`A média do aluno é ${resultado}`);
 
 if (resultado >= 15) {
-  document.write(' e o aluno está aprovado');
+  document.write(' e está aprovado!');
 } else {
-  document.write(' e o aluno está reprovado');
+  document.write(' e está reprovado!');
 }
 
 // exercicio 2
@@ -79,7 +79,7 @@ if (resultado >= 15) {
 // else
 // quem ganhou
 
-let peso3 = window.prompt('Tesoura, Papel ou Pedra');
+/*let peso3 = window.prompt('Tesoura, Papel ou Pedra');
 let peso2 = papel;
 let peso1 = pedra;
 let resultado_JKP;
@@ -92,7 +92,7 @@ if (peso2 > peso1) {
 }
 if (peso1 > peso3) {
   document.write(' Pedra ganha de tesoura');
-}
+}*/
 
 // console.log('wasdsasadas consoleeeeeee')
 // document.write(`<div>asdsadsa</div>`)
