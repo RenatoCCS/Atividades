@@ -71,8 +71,8 @@ if (resultado >= 15) {
   document.write(' e está reprovado!');
 }
 
-//var resultado = document.querySelector('.result');
-//console.log(resultado);
+var resultado = document.querySelector('.result');
+console.log(resultado);
 
 // exercicio 2
 // 1 = pedra
