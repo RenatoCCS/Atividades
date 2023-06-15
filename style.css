@@ -1,12 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family= Roboto +Condensed:wght@400;700 & display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  font-size: 20px;
+}
+
 body {
   background-color: #d2cfcf;
 }
 
-* {
-  font-size: 60px;
-  font-family: sans-serif;
-  color: #333;
+:root {
+  --primeira-cor: #ffb84c;
+  --segunda-cor: #f266ab;
+  --terceira-cor: #a459d1;
+  --quarta-cor: #2cd3e1;
+  --quinta-cor: #000000;
 
-  margin: 0;
-  padding: 0;
+  --fonte: 'Roboto', sans-serif;
+}
+
+.container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.board {
+  width: 798px;
+  height: 574px;
+  top: 24px;
+  left: 321px;
+  border-radius: 5px;
+  background-color: var(--terceira-cor);
+  border: 2px solid var(--quinta-cor);
+}
+
+.students {
+  margin: 20px 0px 0px 20px;
+  width: 220px;
+  height: 70px;
+  background-color: var(--quarta-cor);
+}
+
+.buttons {
+  margin-top: 100px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 9px;
+}
+
+.button1,
+.button2,
+.button3 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 100px;
+  height: 70px;
+  border-radius: 5px;
+  border: 2px solid var(--quinta-cor);
+  text-align: center;
+  background-color: var(--primeira-cor);
+}
+
+.result {
+  margin: 100px 0px 0px 200px;
+  width: 400px;
+  height: 70px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid var(--quinta-cor);
+  border-radius: 5px;
+  background-color: var(--primeira-cor);
+  transition: 1s;
+  cursor: pointer;
+  /*Fazer uma transição quando clicar para mudar de cor e colocar um preenchimento interno. Tentar diminuir o espaço do resultado*/
+}
+
+.result:hover {
+  border: 2px solid var(--quinta-cor);
+  background-color: var(--segunda-cor);
+  transition: 1s;
 }

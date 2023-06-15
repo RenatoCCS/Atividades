@@ -57,6 +57,7 @@
 //  se ele passou ou não de ano, não enviar em console.log
 // deixa BUNITO estilizar bastante.
 
+let aluno = window.prompt(' Qual o nome do aluno?');
 let nota1 = window.prompt(' Qual a primeira nota do aluno?');
 let nota2 = window.prompt(' Qual a segunda nota do aluno?');
 let nota3 = window.prompt(' Qual a terceira nota do aluno?');
@@ -69,6 +70,9 @@ if (resultado >= 15) {
 } else {
   document.write(' e está reprovado!');
 }
+
+var teste = document.querySelector('.result');
+console.log('.result');
 
 // exercicio 2
 // 1 = pedra
