@@ -57,7 +57,7 @@
 //  se ele passou ou não de ano, não enviar em console.log
 // deixa BUNITO estilizar bastante.
 
-let aluno = window.prompt(' Qual o nome do aluno?');
+/*let aluno = window.prompt(' Qual o nome do aluno?');
 let nota1 = window.prompt(' Qual a primeira nota do aluno?');
 let nota2 = window.prompt(' Qual a segunda nota do aluno?');
 let nota3 = window.prompt(' Qual a terceira nota do aluno?');
@@ -69,7 +69,7 @@ if (resultado >= 15) {
   document.write(' e está aprovado!');
 } else {
   document.write(' e está reprovado!');
-}
+}*/
 
 //var resultado = document.querySelector('.result');
 //console.log(resultado);
@@ -96,6 +96,23 @@ if (tres > dois) {
 {
   document.write('Pedra ganha de tesoura');
 }*/
+
+let Jogador = window.alert(
+  ' A regra do jogo é simples, um item vence o outro: Tesoura > Papel > Pedra > Tesoura.'
+);
+let tesoura = window.prompt('Se escolher tesoura, escreva tres');
+let papel = window.prompt('Se escolher papel, escreva dois');
+let pedra = window.prompt('Se escolher pedra, escreva um');
+let resultado_JKP;
+
+if (tres > dois) {
+  document.write('Tesoura ganha de papel');
+} else if (dois > um) {
+  document.write('Papel ganha de pedra');
+} else um < tres;
+{
+  document.write('Pedra ganha de tesoura');
+}
 
 // console.log('wasdsasadas consoleeeeeee')
 // document.write(`<div>asdsadsa</div>`)
