@@ -71,8 +71,26 @@ if (resultado >= 15) {
   document.write(' e está reprovado!');
 }*/
 
-//var resultado = document.querySelector('.result');
-//console.log(resultado);
+//let aluno = window.prompt(' Qual o nome do aluno?');
+let nota1 = document.querySelector('.button1');
+let nota2 = document.querySelector('.button2');
+let nota3 = document.querySelector('.button3');
+let resultado = document.querySelector('.result');
+
+function passed_or_not() {
+  if (resultado >= 6) {
+    document.write('Está aprovado!');
+  } else {
+    document.write('Está reprovado!');
+  }
+}
+
+function calculation() {
+  resultado.innerHTML =
+    (Number(nota1.value) + Number(nota2.value) + Number(nota3.value)) / 3;
+}
+
+button.addEventListener('click', function calculation() {});
 
 // exercicio 2
 // 1 = pedra
@@ -97,7 +115,7 @@ if (tres > dois) {
   document.write('Pedra ganha de tesoura');
 }*/
 
-let Jogador = window.alert(
+/*let Jogador = window.alert(
   ' A regra do jogo é simples, um item vence o outro: Tesoura > Papel > Pedra > Tesoura.'
 );
 let tesoura = window.prompt('Se escolher tesoura, escreva tres');
@@ -112,12 +130,16 @@ if (tres > dois) {
 } else um < tres;
 {
   document.write('Pedra ganha de tesoura');
-}
+}*/
 
 // console.log('wasdsasadas consoleeeeeee')
 // document.write(`<div>asdsadsa</div>`)
 
-let A = 30;
+/*let A = 30;
 let B = 10;
 let SOMA = A + B;
 console.log(`SOMA = ${SOMA}`);
+
+for (var i = 0; i <= 9; i = i + 1) {
+  console.log([i]);
+}*/
